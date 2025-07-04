@@ -16,5 +16,22 @@
         <source src="https://stream-168.zeno.fm/ybiv6yvc5mbvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ5Yml2Nnl2YzVtYnZ2IiwiaG9zdCI6InN0cmVhbS0xNjguemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IjBoMlVpQmV3UW9hQXdBWkliUm93MVEiLCJpYXQiOjE3NTEyNDk3ODIsImV4cCI6MTc1MTI0OTg0Mn0.sBmWTSrD7A0DJZfnP3Lo1FkQMz9VA29xiTFB4G4kS5I">
         Your browser does not support the audio element.
     </audio>
+    <video id="my-video" class="video-js" controls preload="auto" width="640" height="264"
+  data-setup='{}'>
+  <source src="https://live20.bozztv.com/akamaissh101/ssh101/tvsalsicha2/playlist.m3u8" type="application/x-mpegURL">
+  <p class="vjs-no-js">
+    To view this video please enable JavaScript, and consider upgrading to a
+    web browser that
+    <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+  </p>
+</video>
+
+<link href="https://vjs.zencdn.net/7.17.0/video-js.css" rel="stylesheet" />
+<script src="https://vjs.zencdn.net/7.17.0/video.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/videojs-contrib-hls@5.15.0/dist/videojs-contrib-hls.min.js"></script>
+
+<script>
+  var player = videojs('my-video');
+</script>
 <!-- HTML5 Player END -->
 </html>
